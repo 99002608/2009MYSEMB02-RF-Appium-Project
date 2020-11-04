@@ -32,7 +32,9 @@ TC3_AddingAndRemovingItemsTemplate
        #Swipe    607    1568    620    1181
        Swipe By Percent    90    75    90    30    
     END  
-    Wait Until Page Contains Element    //*[@text='4']    
+    Swipe By Percent    90    75    90    80
+    Sleep    2s    
+    Wait Until Page Contains Element    //*[@text='Basket']    
     Click Element    //*[@text='4']
     Wait Until Page Contains Element    //*[@resource-id='com.bigbasket.mobileapp:id/total_price_tv']    
     ${price}    Get Text    //*[@resource-id='com.bigbasket.mobileapp:id/total_price_tv']
