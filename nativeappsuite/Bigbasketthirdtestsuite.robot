@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation    This file covers the test cases for validating Adding And Removing Items
 Library    AppiumLibrary    
 Library    Process    
 Test Template    TC3_AddingAndRemovingItemsTemplate

@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation    This file covers the test cases for validating Open Navigation
 Library    AppiumLibrary    
 Library    Process    
 Test Template    TC1_LoginTemplate

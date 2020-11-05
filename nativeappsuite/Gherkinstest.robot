@@ -1,4 +1,6 @@
 *** Settings ***
+Documentation    This file covers the test cases for validating Gherkins Test
+
 Resource    ../resource/stepdefn/stepdefn.resource
 
 

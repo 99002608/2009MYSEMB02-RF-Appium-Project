@@ -1,4 +1,6 @@
 *** Settings ***
+Documentation    This file covers the test cases for validating Shop by Categories
+...    with multiple data
 Library    AppiumLibrary    
 Library    Process    
 Test Template    TC2_ShopByCategoryTemplate
