@@ -42,7 +42,7 @@ I click on adding and removing items
     Swipe By Percent    90    75    90    80
     Sleep    2s    
     Wait Until Page Contains Element    //*[@text='Basket']    
-    Click Element    //*[@text='4']
+    Click Element    //*[@text='Basket']
     Wait Until Page Contains Element    //*[@resource-id='com.bigbasket.mobileapp:id/total_price_tv']    
     ${price}    Get Text    //*[@resource-id='com.bigbasket.mobileapp:id/total_price_tv']
     Log To Console    ${price}   
