@@ -4,4 +4,4 @@
 
 ## Brief Summary of the Project
 
-  This project contains the test cases for automating Big Basket Appium project.
+  This project contains the test cases for automating Big Basket Appium project.The first test case is validating the address before login already.The second test case  is shopping by category.For example,if we select the category “The Beauty Store”. It will search for that category until that it will print all the text/categories.When it was found, it will click that specific category.The third test case is adding and removing items to and from the basket for the Fruits and Vegetables category.The fourth test case contains the functionality of Gherkins
